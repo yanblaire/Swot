@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.strength{
+    width: 30vw;
+    height: 25vw;
+    text-align: center;
+    border: 2px solid black;
+    margin: 3px;
+}
+.strength p{
+    color: white;
+    background-color: green;
+    width: 30vw;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.weakness{
+    width: 30vw;
+    height: 25vw;
+    text-align: center;
+    border: 2px solid black;
+    margin: 3px;
+}
+.weakness p{
+    color: white;
+    background-color: red;
+    width: 30vw;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.oppurtunity{
+    width: 30vw;
+    height: 25vw;
+    text-align: center;
+    border: 2px solid black;
+    margin: 3px;
+}
+.oppurtunity p{
+    color: white;
+    background-color: green;
+    width: 30vw;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.threats{
+    width: 30vw;
+    height: 25vw;
+    text-align: center;
+    border: 2px solid black;
+    margin: 3px;
+}
+.threats p{
+    color: white;
+    background-color: red;
+    width: 30vw;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+}
