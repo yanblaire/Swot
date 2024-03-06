@@ -4,17 +4,13 @@ body{
     justify-content: center;
     align-items: center;
 }
-.top{
-    display: flex;
-    flex-direction: row;
-}
-.bottom{
+.top, .bottom{
     display: flex;
     flex-direction: row;
 }
 .strength, .weakness, .oppurtunity, .threats{
     width: 30vw;
-    height: 25vw;
+    height: 20vw;
     text-align: center;
     border: 2px solid black;
     margin: 3px;
@@ -37,3 +33,30 @@ body{
     padding-top: 10px;
     font-size: 30px;
 }
+.inputText{
+    margin-top: 3vh;
+}
+.inputText input{
+    width: 40vw;
+    height: 10vh;
+}
+.inputText button{
+    width: 5vw;
+    height: 10vh;
+}
+
+.SWOTItem{
+    all: unset;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 1px 1px 3px gray;
+    height: 40px;
+}
+.unFocused{
+    filter: blur(5px);
+}
+.Focused{
+    filter: blur(0);
+}
+
